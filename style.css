@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0,9;
+    margin: 0 auto;
+}
+
+nav {
+   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 69px;
+    
+}
+
+nav li {
+    color: white;
+    display: inline-block;
+    padding: 0 20px 0 0;
+    text-decoration: underline;
+  
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+   
+    
+    z-index: 10;
+}
+
+.logo {
+   
+    padding: 0 0 0 10px;
+    height: 50px;
+}
+
+.navright {
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: auto
+}
+.background{
+    align-items: center;
+
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 69px;
+    margin: auto;
+    color: seashell;
+}
+.mission-wrapper {
+    background-color: black;
+    width: 100%;
+    padding: 0;
+    height: 125px;
+}
+
+.background-totm {
+    align-items: center;
+
+    text-align: center;
+    width: 1000px;
+    position: relative;
+    top: 70px;
+    margin: auto;
+    color: seashell;
+   
+
+}
+
+.totm-gallery {
+    height: 200px;
+    width: 300px;
+}
+
+.img-totm {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 0 10px;
+    
+}
+
+.img-totm h4 {
+    line-height: 5px;
+}
+
+#loc {
+    
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    padding-top: 60px;
+    color: seashell;
+}
+
+.container-loc {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.square {
+    background-color: black;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 20px;
+    position: relative;
+    top: 15px;
+
+    width: 300px;
+    text-align: center;
+}
+
+.text-loc {
+    
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+.adress {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+  
+    height: 200px;
+    color: seashell;
+    
+}
+
+footer {
+    position: relative; 
+    top: 40px;
+    text-align: left;
+    left: 20px;
+    color: seashell;
+}
+
+
+
